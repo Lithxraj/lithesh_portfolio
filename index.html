@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lithesh Raj N | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scroll-progress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">LR<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="name">Lithesh Raj N</h1>
+                <h2 class="subtitle"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="description">
+                    I enjoy building AI-powered applications, exploring machine learning, and developing software that solves real-world challenges.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#resume" class="btn btn-primary">Download Resume <i class="fas fa-download"></i></a>
+                    <a href="#contact" class="btn btn-outline">Contact Me <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-wrapper">
+                    <img src="assets/profile.jpeg" alt="Lithesh Raj N" class="hero-image">
+                    <div class="glow-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="about section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text glass-card">
+                <div class="about-image-wrapper">
+                    <img src="assets/pic.jpg" alt="Lithesh Raj" class="about-image">
+                </div>
+                <div class="about-content">
+                    <p>I am a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning. I enjoy learning new technologies, developing AI projects, and continuously improving my programming and problem-solving skills. My goal is to become an AI Engineer and contribute to impactful innovations.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bengaluru, Karnataka, India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <span>CSE (AI & ML) Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education glass-card">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Bachelor of Engineering</h4>
+                        <p class="institution">Computer Science Engineering (AI & ML)</p>
+                        <p class="college">VTU Affiliated College</p>
+                        <p class="year">Expected Graduation: 2028</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <!-- Programming -->
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-code"></i> Programming</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>C / C++</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Java</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Python</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>JavaScript</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web & Tools -->
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-globe"></i> Web & Tools</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>HTML / CSS</span><span>85%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Git / GitHub</span><span>80%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>VS Code</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Raspberry Pi</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI / ML & DB -->
+            <div class="skill-category glass-card">
+                <h3><i class="fas fa-brain"></i> AI & Database</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Machine Learning</span><span>70%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>Computer Vision / OpenCV</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>YOLO</span><span>65%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="65%"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info"><span>MongoDB / SQL</span><span>75%</span></div>
+                        <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title">Projects</h2>
+        
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI / ML</button>
+            <button class="filter-btn" data-filter="hardware">Hardware</button>
+            <button class="filter-btn" data-filter="software">Software</button>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card" data-category="ai hardware">
+                <div class="project-icon"><i class="fas fa-eye"></i></div>
+                <h3 class="project-title">AI Blind Assistant</h3>
+                <p class="project-desc">An AI-powered assistant for visually impaired users using Raspberry Pi, Computer Vision, Object Detection, Text Reading, Voice Guidance, and Obstacle Detection.</p>
+                <div class="project-tags">
+                    <span class="tag">Raspberry Pi</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">YOLO</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card" data-category="hardware">
+                <div class="project-icon"><i class="fas fa-lightbulb"></i></div>
+                <h3 class="project-title">Smart Street Light</h3>
+                <p class="project-desc">An intelligent street lighting system using Raspberry Pi, IR Sensors, LDR, and Relay modules for automatic energy-efficient lighting.</p>
+                <div class="project-tags">
+                    <span class="tag">IoT</span>
+                    <span class="tag">Sensors</span>
+                    <span class="tag">Raspberry Pi</span>
+                </div>
+            </div>
+
+            <!-- Removed MongoDB and ADA Labs as requested -->
+        </div>
+    </section>
+
+    <!-- Achievements & Certificates -->
+    <section id="certificates" class="achievements section">
+        <h2 class="section-title">Achievements & Certificates</h2>
+        <div class="achievements-container">
+            <div class="achievements-list glass-card">
+                <h3><i class="fas fa-trophy"></i> Key Achievements</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle accent-color"></i> AI & ML Student specializing in advanced technologies</li>
+                    <li><i class="fas fa-check-circle accent-color"></i> Hands-on Raspberry Pi Projects & Hardware Integration</li>
+                    <li><i class="fas fa-check-circle accent-color"></i> Advanced MongoDB Database Practice</li>
+                    <li><i class="fas fa-check-circle accent-color"></i> Algorithm Design & Problem Solving Enthusiast</li>
+                </ul>
+            </div>
+            
+            <div class="certificates-grid">
+                <div class="certificate-card glass-card">
+                    <i class="fas fa-certificate cert-icon"></i>
+                    <h4>Python Course</h4>
+                    <p><a href="assets/python.pdf" target="_blank" class="accent-color" style="font-weight: 600;">View Certificate <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+                <div class="certificate-card glass-card">
+                    <i class="fas fa-laptop-code cert-icon"></i>
+                    <h4>Hackathon</h4>
+                    <p><a href="assets/hacklthon.pdf" target="_blank" class="accent-color" style="font-weight: 600;">View Certificate <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+                <div class="certificate-card glass-card">
+                    <i class="fas fa-project-diagram cert-icon"></i>
+                    <h4>Mini Project (2025)</h4>
+                    <p><a href="assets/mini project 2025.pdf" target="_blank" class="accent-color" style="font-weight: 600;">View Certificate <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+                <div class="certificate-card glass-card">
+                    <i class="fas fa-project-diagram cert-icon"></i>
+                    <h4>Mini Project (2026)</h4>
+                    <p><a href="assets/mini project 2026.pdf" target="_blank" class="accent-color" style="font-weight: 600;">View Certificate <i class="fas fa-external-link-alt"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume & GitHub -->
+    <section id="resume" class="resume section">
+        <h2 class="section-title">Resume & GitHub</h2>
+        <div class="resume-container">
+            <div class="resume-download glass-card">
+                <div class="icon-wrapper"><i class="fas fa-file-pdf"></i></div>
+                <h3>My Resume</h3>
+                <p>Download my full professional resume to see more details about my education, skills, and projects.</p>
+                <a href="assets/Lithesh Raj N.pdf" class="btn btn-primary" download>Download PDF <i class="fas fa-download"></i></a>
+            </div>
+            
+            <div class="github-profile glass-card">
+                <div class="github-header">
+                    <i class="fab fa-github github-icon"></i>
+                    <h3>GitHub Profile</h3>
+                </div>
+                <div class="repo-grid">
+                    <div class="repo-card">
+                        <h4><i class="fas fa-book"></i> AI-Blind-Assistant</h4>
+                        <p>Raspberry Pi & CV</p>
+                    </div>
+                    <div class="repo-card">
+                        <h4><i class="fas fa-book"></i> Smart-Street-Light</h4>
+                        <p>IoT project</p>
+                    </div>
+                </div>
+                <a href="https://github.com/Lithxraj" target="_blank" class="btn btn-outline">Visit GitHub <i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info glass-card">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <div class="method-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:Litheshraj.tech@gmail.com">Litheshraj.tech@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <div class="method-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+918792562909">+91 8792562909</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fab fa-linkedin"></i>
+                        <div class="method-details">
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/lithesh-raj-n</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form glass-card" id="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required placeholder="Hello, I'd like to talk about..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Lithxraj" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:Litheshraj.tech@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2026 Lithesh Raj N. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
