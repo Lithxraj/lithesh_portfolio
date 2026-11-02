@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Hero3D from './components/Hero3D';
@@ -65,6 +66,7 @@ export default function App() {
   return (
     <ThemeProvider>
       <PortfolioContent />
+      <SpeedInsights />
     </ThemeProvider>
   );
 }
